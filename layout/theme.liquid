@@ -7,6 +7,8 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -220,6 +222,23 @@
         --variant-pills-shadow-horizontal-offset: {{ settings.variant_pills_shadow_horizontal_offset }}px;
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
+
+        --h1-font-size: {{ settings.h1-font-size }}px;
+        --h1-m-font-size: {{ settings.h1-m-font-size }}px;
+        --h2-font-size: {{ settings.h2-font-size }}px;
+        --h2-m-font-size: {{ settings.h2-m-font-size }}px;
+        --h3-font-size: {{ settings.h3-font-size }}px;
+        --h3-m-font-size: {{ settings.h3-m-font-size }}px;
+        --h4-font-size: {{ settings.h4-font-size }}px;
+        --h4-m-font-size: {{ settings.h4-m-font-size }}px;
+        --h5-font-size: {{ settings.h5-font-size }}px;
+        --h5-m-font-size: {{ settings.h5-m-font-size }}px;
+        --h6-font-size: {{ settings.h6-font-size }}px;
+        --h6-m-font-size: {{ settings.h6-m-font-size }}px;
+        --p-font-size: {{ settings.p-font-size }}px;
+        --p-m-font-size: {{ settings.p-m-font-size }}px;
+        --span-font-size: {{ settings.span-font-size }}px;
+        --span-m-font-size: {{ settings.span-m-font-size }}px;
       }
 
       *,
@@ -246,6 +265,27 @@
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
+      }
+
+      h1 {font-size: var(--h1-font-size);}
+      h2 {font-size: var(--h2-font-size);}
+      h3 {font-size: var(--h3-font-size);}
+      h4 {font-size: var(--h4-font-size);}
+      h5 {font-size: var(--h5-font-size);}
+      h6 {font-size: var(--h6-font-size);}
+      p {font-size: var(--p-font-size);}
+      span {font-size: var(--span-font-size);}
+      a {font-size: var(--a-font-size);}
+      @media(max-width: 789px){
+        h1 {font-size: var(--h1-m-font-size);}
+        h2 {font-size: var(--h2-m-font-size);}
+        h3 {font-size: var(--h3-m-font-size);}
+        h4 {font-size: var(--h4-m-font-size);}
+        h5 {font-size: var(--h5-m-font-size);}
+        h6 {font-size: var(--h6-m-font-size);}
+        p {font-size: var(--p-m-font-size);}
+        span {font-size: var(--span-m-font-size);}
+        a {font-size: var(--a-m-font-size);}
       }
 
       @media screen and (min-width: 750px) {
@@ -372,5 +412,8 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   </body>
 </html>
