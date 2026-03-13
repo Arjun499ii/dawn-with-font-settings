@@ -116,13 +116,187 @@
       },
       {
         "type": "range",
-        "id": "heading_scale",
-        "min": 100,
-        "max": 150,
-        "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.heading_scale.label",
-        "default": 100
+        "id": "h1-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H1 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h2-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H2 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h3-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H3 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h4-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H4 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h5-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H5 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h6-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H6 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "p-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "P Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "a-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "a Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "span-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Span Font Size",
+        "default": 10
+      },
+      {
+        "type": "header",
+        "content": "Heading Size Mobile"
+      },
+      {
+        "type": "range",
+        "id": "h1-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H1 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h2-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H2 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h3-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H3 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h4-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H4 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h5-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H5 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "h6-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "H6 Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "p-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "P Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "a-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "a Font Size",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "span-m-font-size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Span Font Size",
+        "default": 10
       },
       {
         "type": "header",
